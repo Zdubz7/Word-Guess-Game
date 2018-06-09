@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" type="img/png" href="assets/images/topicon.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Lord of The Rings Hangman">
+    <meta name="author" content="Zach Wiest">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> LOTR | Hangman</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/reset.css">
+
+  </head>
+
+  <body>
+    <BODY BACKGROUND="assets/images/ring.jpg" BGCOLOR="#000000" BGPROPERTIES="FIXED" width=100% height=100%>
+    <embed src="assets/images/lordoftherings.mp3" autostart="true" loop="true" width="0" height="0">
+    <div class="wrapper">
+   <h1>Lord of The Rings</h1>
+</div>
+
+<div class="wrapper">
+    <h2>Character Guessing Hangman</h2>
+    <p>Use the alphabet provided to guess The 
+      Lord Of The Rings Character, or click <strong>HELP</strong> if you are 
+      stuck and need Help. </p>
+    <div id="buttons">
+        <ul id="alphabet">
+        </ul>
+    </div>  
+    <div id="stop">
+        <strong>Wins: </strong> <span id="win-tracker">0</span>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <strong>losses: </strong> <span id="loss-tracker">0</span>
+        <p id="questionName"></p>
+        <ul id="my-character"></ul>
+    <p id="mylives"></p>
+    <p id="clue">Clue -</p>  
+     <canvas id="hangman">Your Browser Doesn't Support This Game, sorry :/.</canvas>
+     <br>
+    <div class="container">
+      <button id="help">HELP</button>
+      <button id="playagain">Play Again!</button>
+    </div>
+</div>
+
+
+    
+        <script src="assets/javascript/game.js"></script>
+
+    
+    
+    
+  </body>
+</html>
